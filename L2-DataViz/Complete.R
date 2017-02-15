@@ -23,11 +23,11 @@ g <- g + labs(x = "Sepal length",
 
 
 #legend title is ugly
-
 g <- g + theme(legend.title = element_blank())
 
 #and the legend dots are tiny
 g <- g + guides(color = guide_legend(override.aes = list(size = 4)))
+
 
 #much better
 
@@ -46,7 +46,6 @@ g <- g + stat_smooth(method = "lm",
                      col = "black")
 
 # g <- g + geom_smooth()
-
 
 #you can get all sorts of funky themes in the mix
 #https://github.com/jrnold/ggthemes
