@@ -54,8 +54,6 @@ analysis <- function(treatment) {
 }
 
 
-
-
 #Which treatment worked better?
 
 
